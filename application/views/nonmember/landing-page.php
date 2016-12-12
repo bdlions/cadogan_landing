@@ -11,7 +11,7 @@
 </script>
 <div class="main-bg-image-section">
     <main role="main" data-base="">
-        <div class="main-wrapper sem-wrapper sem-resp" style="background:url(<?php echo base_url() . 'resources/images/' . $page_details[0]['bg_img']; ?>) no-repeat #fbfbfb; height:600px; overflow: hidden;">
+        <div class="main-wrapper sem-wrapper sem-resp" style="background:url(<?php echo base_url() . 'resources/images/' . $page_details[0]['bg_img']; ?>) no-repeat #fbfbfb; height:558px; overflow: hidden;">
             <div class="sem-resp--content">
                 <div class="sem-resp--title"></div>
                 <div class="sem-resp--quote">
