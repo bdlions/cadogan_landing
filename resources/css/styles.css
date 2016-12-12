@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 .paddin_over_top_20px{
     padding-top: 20px;
@@ -677,11 +682,6 @@ table td {
 
 
 
-
-
-
-
-
 @media (min-width: 992px){
     .custom > li {
         float: right!important;
@@ -692,7 +692,7 @@ table td {
     .float_phone{
         font-family: "Open Sans",sans-serif;
         color: #c68934;
-        margin-top: 20px;
+        /*margin-top: 20px;*/
         float: right!important;
         padding-top: 30px;
         font-size: 15px;

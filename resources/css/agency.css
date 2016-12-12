@@ -52,7 +52,7 @@ a {
   /*color: #fed136;*/
   color:#000000;
   font-weight:bold;
-  font-family: 'Open Sans', sans-serif;intro-text;
+  font-family: 'Open Sans', sans-serif;
 }
 a:hover,
 a:focus,
@@ -259,33 +259,7 @@ header {
   margin-left:auto;
   margin-right:auto;
 }
-@media (min-width: 768px)
-header {
-    max-width:: 750px;
-}
-header .intro-text {
-  padding-top: 40px;
-  padding-bottom: 50px;
-}
-header .intro-text p {
- margin-top:20px;
-}
 
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 40px;
