@@ -121,6 +121,10 @@ html, body {
 .footer_bg{
     background-color: lightgray; 
     color: #fff;
+    position: fixed;
+    bottom: 0px;
+    z-index: 101;
+    width: 100%;
 }
 .top {
     margin: 28px 0 10px;
