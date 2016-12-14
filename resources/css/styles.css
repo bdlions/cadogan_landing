@@ -121,10 +121,6 @@ html, body {
 .footer_bg{
     background-color: lightgray; 
     color: #fff;
-    position: fixed;
-    bottom: 0px;
-    z-index: 101;
-    width: 100%;
 }
 .top {
     margin: 28px 0 10px;
@@ -687,6 +683,12 @@ table td {
 
 
 @media (min-width: 992px){
+    .footer_bg{
+        position: fixed;
+        bottom: 0px;
+        z-index: 101;
+        width: 100%;
+    }
     .custom > li {
         float: right!important;
     }  
