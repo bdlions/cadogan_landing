@@ -18,7 +18,9 @@ class LandingPage extends CI_Controller {
         $this->load->library('org/admin/admin_page_library');
         $this->load->library('org/admin/admin_submenu_library');
         $this->load->library('org/utility/Image_utils');
-		
+	if (!$this->ion_auth->logged_in()) {
+            redirect('admin/auth/login', 'refresh');
+        }	
     }
 
     /*
