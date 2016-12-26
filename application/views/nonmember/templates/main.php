@@ -9,6 +9,7 @@
         <meta name="og:title" content="cadoganmcqueen" />
         <meta name="og:description" content="soport website" />	
         <meta name="keywords" content=""/>
+        <link rel="shortcut icon" href="<?php echo base_url() ?>resources/images/favicon.ico" type="image/x-icon">
         <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>resources/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>resources/css/styles.css">
