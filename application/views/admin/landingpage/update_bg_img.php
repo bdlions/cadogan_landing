@@ -112,8 +112,8 @@ $(function () {
                     </div>
                     <div class="form-group">
                         <label for="picture" class="col-md-3 control-label requiredField">
-                            Image
-                        </label>
+                            Image(Width:1200px Height:558px)
+                        </label> 
                         <div class ="col-md-9">
                             <div class="col-md-3">
                                 <div class="row fileinput-button">
