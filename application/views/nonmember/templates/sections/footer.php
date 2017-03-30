@@ -3,12 +3,19 @@
         <div class="container">
             <div class="row" >
                 <div class="col-md-offset-1 col-md-10">
-                    <div class="row copyright">
-                        <div class="col-md-9">
-                            <p><?php echo $home_page_info['copy_right']?></p>
+                    <div class="row  small-and-extra-small-device-display medium-and-large-device-display">
+                        <div class="col-md-12">
+                            <div class="float_phone"><?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address"><?php echo $page_details[0]['email'] ?></span></div>
                         </div>
-                        <div class="col-md-3 pull-right">
-                            <p><a href="#">Designed by bdlions</a></p>
+                    </div>
+                    <div class="row small-and-extra-small-device-display">
+                        <div class="col-md-12">
+                            <div class="float_phone">Tel: <?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address">Email: <?php echo $page_details[0]['email'] ?></span></div>
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="col-md-12">
+                            <p><?php echo $home_page_info['copy_right'] ?></p>
                         </div>
                     </div>
                 </div>

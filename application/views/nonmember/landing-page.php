@@ -18,7 +18,15 @@
                     <div class="sem-resp--quote--text"></div>
                     <div class="sem-resp--quote--text"></div>
                 </div>
-                <div class="sem-resp--title"><?php echo $page_details[0]['bg_title']; ?></div>
+                <div class="medium-and-large-device-display">
+                    <div class="sem-resp--title"><?php echo $page_details[0]['bg_title']; ?></div>
+                </div>
+                <div class="row small-and-extra-small-device-display">
+                    <a href="<?php echo base_url(); ?>">
+                        <img class="img-responsive logo-wrap logo-center-position" src="<?php echo base_url() ?>resources/images/CADOGAN_transparent_logo.png" alt="Cadogan Mcqueen Logo"> 
+                    </a> 
+                </div>
+
                 <div class="sem-resp--quote">
                     <div class="sem-resp--quote--text"><?php echo $page_details[0]['bg_subtitle']; ?></div>
                 </div>

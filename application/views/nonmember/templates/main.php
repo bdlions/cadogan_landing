@@ -35,7 +35,7 @@
     </head>
     <body class="home">
         <!--<div class="container">-->
-        <div class="row form-group">
+        <div class="row">
             <div class="col-md-12">
                 <?php $this->load->view('nonmember/templates/sections/header'); ?>
                 <?php echo $contents; ?>
