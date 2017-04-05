@@ -680,7 +680,12 @@ table td {
     padding-bottom: 30px; 
 }
 
-
+.footer_bg{
+        position: fixed;
+        bottom: 0px;
+        z-index: 101;
+        width: 100%;
+    }
 
 @media (min-width: 992px){
     .footer_bg{
