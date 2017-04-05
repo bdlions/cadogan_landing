@@ -394,11 +394,8 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
 }
 /* --------------------- Mobile and Tablet Device -------------------------------------  */
 @media only screen and (max-width : 767px) {
-    .medium-and-large-device-display{
-        display: none;
-    }
     .small-and-extra-small-device-display{
-        visibility: visible;
+        display: none;
     }
     .image-adjust{
         height: 60px; 
@@ -435,10 +432,13 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
         font-family: "Open Sans",sans-serif!important;
         text-align: initial;
     }
+    .bg-img{
+        min-height: 100%; 
+    }
     .logo-wrap{
         max-height:70px!important; 
         max-width:380px!important; 
-        margin-top: 20px;
+        /*margin-top: 20px;*/
     }
     .logo-center-position{
         margin-left: auto;
@@ -465,11 +465,9 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
 /* --------------------- Medium and Large Device -------------------------------------  */
 @media only screen and (min-width : 768px) {
     .medium-and-large-device-display{
-        visibility: visible;
+        display: none;
     }
-    .small-and-extra-small-device-display{
-         display: none;
-    }
+    
     .image-adjust{
         height: 60px; 
         width: 100px;
@@ -510,6 +508,9 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
         line-height: 18px!important;
         font-family: "Open Sans",sans-serif!important;
         text-align: initial;
+    }
+    .bg-img{
+        height:558px; 
     }
     .logo-wrap{
         max-height:70px!important; 

@@ -1,4 +1,4 @@
-<div class="header-section" >
+<div class="header-section small-and-extra-small-device-display" >
     <div class="container" >
         <div class="row header-wrap" >
             <div class="col-sm-6 col-md-6 form-group">

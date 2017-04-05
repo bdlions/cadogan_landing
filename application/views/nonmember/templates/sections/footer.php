@@ -3,12 +3,7 @@
         <div class="container">
             <div class="row" >
                 <div class="col-md-offset-1 col-md-10">
-                    <div class="row  small-and-extra-small-device-display medium-and-large-device-display">
-                        <div class="col-md-12">
-                            <div class="float_phone"><?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address"><?php echo $page_details[0]['email'] ?></span></div>
-                        </div>
-                    </div>
-                    <div class="row small-and-extra-small-device-display">
+                    <div class="row medium-and-large-device-display">
                         <div class="col-md-12">
                             <div class="float_phone">Tel: <?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address">Email: <?php echo $page_details[0]['email'] ?></span></div>
                         </div>
