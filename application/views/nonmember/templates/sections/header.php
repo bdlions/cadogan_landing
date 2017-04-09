@@ -7,9 +7,9 @@
                 </a>         
             </div>
             <div class="col-sm-6 col-md-6">
-                <div class="row form-group">
+                <div class="row">
                     <div class="col-md-12">
-                        <div class="float_phone"><?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address"><?php echo $page_details[0]['email'] ?></span></div>
+                        <div class="float_phone"><?php echo $page_details[0]['telephone'] ?> <br><?php echo $page_details[0]['telephone'] ?> <br><?php echo $page_details[0]['telephone'] ?> <br> <span class="email-address"><?php echo $page_details[0]['email'] ?></span></div>
                     </div>
                 </div>
             </div>

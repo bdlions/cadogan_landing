@@ -515,7 +515,7 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
     .logo-wrap{
         max-height:70px!important; 
         max-width:380px!important; 
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .sem-resp--quote--text{
         color: #fff!important;
