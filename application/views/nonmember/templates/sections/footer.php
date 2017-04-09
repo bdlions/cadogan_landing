@@ -5,7 +5,7 @@
                 <div class="col-md-offset-1 col-md-10">
                     <div class="row medium-and-large-device-display">
                         <div class="col-md-12">
-                            <div class="float_phone">Tel: <?php echo $page_details[0]['telephone'] ?> <br> Tel: <?php echo $page_details[0]['telephone'] ?> <br>Tel: <?php echo $page_details[0]['telephone'] ?> <br><span class="email-address">Email: <?php echo $page_details[0]['email'] ?></span></div>
+                            <div class="float_phone">London - 02033978425<br>Luton - 01582227280<br>Coventry - 02477220191<br><span class="email-address">Email: <?php echo $page_details[0]['email'] ?></span></div>
                         </div>
                     </div>
                     <div class="row copyright">
