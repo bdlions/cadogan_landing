@@ -461,6 +461,9 @@ html[data-useragent*='MSIE 10.0'] body .form.landing .form--row--value--skills .
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
     }
+    .copyright{
+        display: none;
+    }
 }
 /* --------------------- Medium and Large Device -------------------------------------  */
 @media only screen and (min-width : 768px) {
