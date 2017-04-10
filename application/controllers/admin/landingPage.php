@@ -232,7 +232,12 @@ class LandingPage extends CI_Controller {
             if ($this->form_validation->run() == true) {
                 $additional_data = array(
                     'email' => $this->input->post('email'),
-                    'telephone' => $this->input->post('telephone'),
+                    'telephone1' => $this->input->post('telephone1'),
+                    'location1' => $this->input->post('location1'),
+                    'telephone2' => $this->input->post('telephone2'),
+                    'location2' => $this->input->post('location2'),
+                    'telephone3' => $this->input->post('telephone3'),
+                    'location3' => $this->input->post('location3'),
                     'address' => $this->input->post('addressField'),
                 );
                 //print_r($additional_data); exit();
@@ -301,6 +306,43 @@ class LandingPage extends CI_Controller {
             'id' => 'telephone',
             'type' => 'text',
             'value' => $page['telephone'],
+        );
+        
+        $this->data['telephone1'] = array(
+            'name' => 'telephone1',
+            'id' => 'telephone1',
+            'type' => 'text',
+            'value' => $page['telephone1'],
+        );
+        $this->data['location1'] = array(
+            'name' => 'location1',
+            'id' => 'location1',
+            'type' => 'text',
+            'value' => $page['location1'],
+        );
+        $this->data['telephone2'] = array(
+            'name' => 'telephone2',
+            'id' => 'telephone2',
+            'type' => 'text',
+            'value' => $page['telephone2'],
+        );
+        $this->data['location2'] = array(
+            'name' => 'location2',
+            'id' => 'location2',
+            'type' => 'text',
+            'value' => $page['location2'],
+        );
+        $this->data['telephone3'] = array(
+            'name' => 'telephone3',
+            'id' => 'telephone3',
+            'type' => 'text',
+            'value' => $page['telephone3'],
+        );
+        $this->data['location3'] = array(
+            'name' => 'location3',
+            'id' => 'location3',
+            'type' => 'text',
+            'value' => $page['location3'],
         );
         
          $this->data['email'] = array(
